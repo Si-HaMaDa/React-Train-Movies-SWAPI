@@ -3,7 +3,7 @@ import { useState, useCallback, useEffect } from "react";
 import MoviesList from "./components/MoviesList";
 import "./App.css";
 
-function App() {
+function Swapi() {
     const [movies, setMovies] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState(null);
@@ -69,4 +69,4 @@ function App() {
     );
 }
 
-export default App;
+export default Swapi;
